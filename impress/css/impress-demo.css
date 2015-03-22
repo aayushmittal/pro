@@ -128,7 +128,10 @@ a:focus {
     margin-top: -8%;
 }
 #homecontent{
-    margin-top: 1%;
+    margin-top: 10%;
+}
+#homelinks{
+    margin-top: -18%;
 }
 /*
     Because the main point behind the impress.js demo is to demo impress.js
@@ -154,7 +157,28 @@ a:focus {
     border-radius: 10px;
     background: #EEDC94;
 }
+#circle1{
+    margin-left: 10%;
+    margin-top: 8%;
+    height: 210px;
+    width: 200px;
+    display: block;
+    border: 1px solid #E4C652;
+    border-radius: 200px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+}
 
+#circle2{
+    /*position: relative;*/
+    margin-left: 62%;
+    margin-top: -15%;
+    height: 210px;
+    width: 200px;
+    display: block;
+    border: 1px solid #E4C652;
+    border-radius: 200px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+}
 .fallback-message p {
     margin-bottom: 10px;
 }
@@ -170,7 +194,7 @@ a:focus {
 */
 
 .step {
-    position: relative;
+  /*  position: relative;*/
     width: 900px;
     padding: 40px;
     margin: 20px auto;
